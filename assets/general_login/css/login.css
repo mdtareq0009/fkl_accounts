@@ -1,0 +1,255 @@
+body{
+    background:url('../img/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contant{
+    width: 800px;
+    margin: 0px auto;
+}
+.clr{
+    clear: both;
+}
+.headding{
+    color:#000000;
+    position: relative;
+    text-align: center;
+    top: 18px;
+}
+.login{
+    width: 40%;
+    border: 1px solid #3e3e3e;
+    min-height: 400px;
+    margin:120px 250px;
+    border-radius: 10px;
+}
+.left-cont{
+    float: left;
+    width: 50%;
+    background: #B31312;
+    min-height: 400px;
+    color: #fff;
+    position: relative;
+}
+.company-info{
+    padding-top: 0px;
+}
+.company-info h4{
+    font-size: 18px !important;
+    text-align: center;
+}
+.company-info p{
+    padding: 10px;
+}
+
+.company-feature h4{
+    text-align: center;
+}
+
+.develop_by{
+    text-align: center;
+}
+.develop_by a{
+    color: #0b0b1c;
+    text-decoration: none;
+    font-size: 15px;
+}
+.develop_by a:hover{
+    cursor: pointer;
+    color: #31B0D5;
+    text-decoration: none;
+}
+.corcel{
+    position: absolute;
+    top: 40%;
+    right: 285px;
+}
+.round{
+    width: 70px;
+    height: 70px;
+    border:3px solid #f1f1f1;
+    border-radius: 50px;
+    background: #fff;
+    position: relative;
+}
+.inner-round{
+    width: 60px;
+    height: 60px;
+    border:3px solid #f1f1f1;
+    border-radius: 50px;
+    background: #820000;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+}
+.inner-logo{
+    position: absolute;
+    top:32%;
+    left: 23%;
+}
+.right-cont{
+    border-radius: 10px;
+    float: left;
+    width: 100%;
+    min-height: 400px;
+    background: #fff;
+}
+.login-form{
+    padding: 0px 25px 10px 25px;
+}
+.login-form h4{
+    text-align: center;
+    font-size: 18px !important;
+    font-weight: 600;
+}
+.company-feature{
+    width: 226px;
+    margin:0px auto;
+}
+.com-add{
+    /* width: 360px; */
+    border-radius: 15px;
+    margin: 0px auto;
+    min-height: 32px;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .contant{
+      width: 600px !important;
+        
+    }
+    .com-add{
+      width: 220px;
+    }
+    .corcel {
+        right: -30px;
+    }
+    .round {
+        width: 55px;
+        height: 55px;
+    }
+    .inner-round {
+        width: 45px;
+        height: 45px;
+    }
+    .company-info{
+        padding:0px;
+    }	
+    .company-info h4{
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+    .com-profile{
+        font-size: 11px;
+    }
+    .develop_by{
+        padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .contant{
+        width: 500px !important;
+        
+    }
+    .left-cont{
+        width: 45% !important;
+        float: left;
+        
+    }
+    .right-cont{
+        float: left;
+        width: 55% !important;
+    }
+    .com-image img{
+        width: 90%;
+        height: 110px;
+        border-radius: 25px;
+        padding-top: 2px;
+        margin-left: 3px;
+    }
+    .company-info{
+        padding:0px;
+    }	
+    .company-info h4{
+        font-size: 14px;
+    }
+    .com-add{
+          width: 200px;
+    }
+    .com-profile{
+        font-size: 11px;
+    }
+    .corcel {
+        right: -27px;
+    }
+    .round {
+        width: 50px;
+        height: 50px;
+    }
+    .inner-round {
+        width: 40px;
+        height: 40px;
+    }
+    .develop_by{
+        padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .headding{
+        top:0;
+    }
+    .login{
+        margin:20px 0px;	
+    }
+    .login{
+        min-height: 300px !important;
+    }
+    .contant{
+        width: 400px !important;	
+    }
+    .left-cont{
+        min-height: 300px !important;
+    }
+    .right-cont{
+        min-height: 300px !important;
+    }
+    .com-image{
+        display: none;
+    }
+    .login-form{
+        padding: 45px 33px;
+    }
+    .com-add{
+        border:none;
+    }
+    .corcel {
+        right: -20px;
+    }
+    .round {
+        width: 35px;
+        height: 35px;
+    }
+    .inner-round {
+        width: 25px;
+        height: 25px;
+    }
+    .company-info h4{
+        font-size: 12px;
+    }
+    .com-profile {
+        font-size: 11px;
+        padding: 0px 0px;
+        width: 150px;
+    }
+    .develop_by {
+        padding-top: 40px;
+    }
+
+}

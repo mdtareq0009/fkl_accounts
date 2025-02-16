@@ -1,0 +1,586 @@
+@font-face {
+  font-family: 'Tahoma';
+  src: url('../assets/fonts/Tahoma.ttf');
+}
+.navbar .navbar-nav li > a {
+  font-family:'Tahoma';font-size:14px;
+}
+.navbar .navbar-brand span {font-family: 'Tahoma';}
+
+#guest_menu {
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #FFFF00;
+    font-weight: bold;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.top_box {
+    background: red;
+}
+.boxF {
+    background: #EEEEEE;
+    min-height: 200px;
+}
+.boxS {
+    background: #fff;
+    min-height: 200px;
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 10px;
+    margin-top: 1%;
+    font-size: 13px;
+}
+#top_chart {
+    width: 100%;
+    min-height: 330px;
+    border: 1px solid #AAAAAA;
+    background: #FFBFCF;
+    padding: 10px;
+}
+
+.form1 .field {
+    min-height: 30px;
+    !background: blue;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.form1 .labelT {
+    width: 20%;
+    min-height: 30px;
+    float: left;
+    vertical-align: middle;
+    line-height: 30px;
+    overflow: hidden;
+    font-family: inherit;
+    color: #333;
+    font-size: 13px;
+}
+.form1 .control {
+    width: 68%;
+    min-height: 30px;
+    !background: pink;
+    float: left;
+    overflow: hidden;
+}
+.form1 .control input[type="time"],
+.form1 input[type="date"],
+.form1 input[type="text"],
+.form1 input[type="password"],
+.form1 input[type="email"],
+.form1 input[type="number"],
+.form1 select,
+.form1 input[type="month"] {
+    width: 100%;
+    height: 30px;
+    margin: 0 5px 0 0;
+    padding-left: 5px;
+    border: 1px solid #ddd;
+	font-size: 13px;
+}
+.form1 .control textarea,
+.textarea {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid #ddd;
+	font-size: 13px;
+}
+.form1 .control input[type="button"],
+.form1 .control input[type="submit"],
+.form1 input[type="button"],
+.buttons {
+    width: 45%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    background: #2e6da4;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+.form2 .field {
+    min-height: 30px;
+    !background: blue;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.form2 .labelN {
+    width: 15%;
+    min-height: 30px;
+    float: left;
+    vertical-align: middle;
+    line-height: 30px;
+    overflow: hidden;
+	font-size: 14px;
+}
+.form2 .control {
+    width: 85%;
+    min-height: 30px;
+    float: left;
+    overflow: hidden;
+}
+.form2 .control input[type="time"],
+.form2 input[type="date"],
+.form2 input[type="text"],
+.form2 input[type="password"],
+.form2 input[type="email"],
+.form2 input[type="number"],
+.form2 select,
+.form2 input[type="month"] {
+    width: 50%;
+    height: 30px;
+    margin: 0 5px 0 0;
+    padding-left: 5px;
+    border: 1px solid #ddd;
+	font-size: 13px;
+}
+.form2 .control textarea,
+.textarea {
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid #ddd;
+	font-size: 13px;
+}
+.form2 .control input[type="button"],
+.form2 .control input[type="submit"],
+.buttons {
+    width: 15%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    background: #2e6da4;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+.btn-srch {
+    width: 15%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    background: #2e6da4;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+#price_inpt {
+    width: 90%;
+    background: #FFDFBF;
+    border: 1px solid #777777;
+}
+.txtColor {
+    color: #B30000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.padMar {
+    padding: 0;
+    margin: 0;
+}
+.rTitle {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.room_blockIn {
+    width: 6.1%;
+    min-height: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 1%;
+    margin-top: 1%;
+    position: relative;
+}
+.room_blockIn .tooltiptext {
+    visibility: hidden;
+    width: 210px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 5px;
+    margin-top: -40px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    line-height: 20px;
+}
+.room_blockIn:hover .tooltiptext {
+    visibility: visible;
+}
+.room_block {
+    width: 100%;
+    min-height: 30px;
+    border: 1px solid #777;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: -1;
+    background: #006CD9;
+    /* Old browsers */
+}
+.room_block:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+    background: rgb(59, 103, 158);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8', GradientType=0);
+    /* IE6-9 */
+}
+.redB {
+    background: red;
+}
+.viewProduct {
+    width: 60%;
+    min-height: 150px;
+    background: #ddd;
+    padding: 13px 0px 13px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.productBox {
+    width: 30%;
+    height: 150px;
+    background: #FF0000;
+    color: #fff;
+    margin-left: 2.5%;
+    float: left;
+    text-align: center;
+    padding: 25px;
+}
+.rowBox {
+    background: #fff;
+    padding-bottom: 10px;
+    margin-top: 2%;
+    overflow: hidden;
+}
+.rowBoxT {
+    background: rgb(163, 186, 209);
+    overflow: hidden;
+    padding-bottom: 10px;
+    border: 1px solid #AAAAAA;
+}
+.rowBox h4 {
+    text-transform: uppercase;
+}
+.table1 {
+    border-collapse: collapse;
+    font-size: 13px;
+    width: 100%;
+}
+.table1 th {
+    background: #056839;
+    border: 1px solid #000040;
+    font-weight: bold;
+    color: #fff;
+}
+.table1 th,
+.table1 td {
+    padding: 2px;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+	font-size: 12px;
+}
+.table1 tr:nth-child(2n+1) {
+    background: #fff;
+}
+.table1 tr:hover {
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+}
+#next_btn {
+    display: none;
+    padding: 5px;
+    background: #ddd;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #777777;
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#text_style {
+    font-family: open-sans;
+    font-size: 15px;
+    color: #400040;
+}
+
+#red {
+    background: #23bf50;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0);
+    /* IE6-9 */
+}
+
+#yellow {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febf01+0,febf01+100;Yellow+Flat */
+    background: #febf01;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #febf01 0%, #febf01 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #febf01 0%, #febf01 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #febf01 0%, #febf01 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#febf01', endColorstr='#febf01', GradientType=0);
+    /* IE6-9 */
+}
+
+#pop-up {
+    display: none;
+    position: absolute;
+    width: 280px;
+    padding: 10px;
+    background: #eeeeee;
+    color: #000000;
+    border: 1px solid #1a1a1a;
+    font-size: 90%;
+}
+
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #555555;
+    display: none;
+}
+
+#boxes .window {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 80%;
+    min-height: 600px;
+    display: none;
+    z-index: 9999;
+    padding: 2px 10px 10px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    overflow: hidden;
+}
+
+#boxes #dialog {
+    padding: 5px 10px 10px 10px;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+#popupfoot {
+    font-size: 16pt;
+    position: absolute;
+    bottom: 0px;
+    width: 250px;
+    left: 250px;
+}
+
+#closeDiv {
+    width: 100%;
+    min-height: 10px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#closeDiv a {
+    color: red;
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+#resBtn {
+    width: 150px;
+    background: green;
+    color: #fff;
+    border: 1px solid #333;
+    float: right;
+    padding: 5px;
+}
+
+#timer_div {
+    width: 100%;
+    min-height: 80px;
+    background: #99FFE5;
+    border: 1px solid #777777;
+    text-align: center;
+}
+
+#showTimerDash {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #D90000;
+    margin: 5px;
+}
+
+#showTimerOn {
+    width: 100%;
+    min-height: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #D90000;
+}
+
+#btn_deactive {
+    width: 200px;
+    padding: 5px;
+    background: #D90000;
+    color: #fff;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#btn_actUsr {
+    background: #00661A;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 6px;
+}
+
+#popOpen{
+    display: none;
+    position: fixed;
+    width: 30%;
+    height: 44%;
+    left: 35%;
+    top: 25%;
+    background-color: white;
+    border: 1px solid #555555;
+    border-radius: 10px;
+    z-index: 1000;
+    box-shadow: 2px 5px 10px #ddd;
+    padding: 10px;
+}
+
+#closeDiv {
+    width: 100%;
+    min-height: 10px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#closeDiv a {
+    color: red;
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+
+/* purchase css */
+
+.proDiv {
+    width: 100%;
+    min-height: 500px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.proTitle {
+    width: 100%;
+    padding: 3px;
+    background: #ddd;
+    color: #444;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 13px;
+}
+.proDiv label {
+    color: #333;
+    margin-top: 5px;
+	font-size: 13px;
+}
+.proDiv input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.proDiv select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.proDiv input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #2a6da1;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.proDiv a {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #2a6da1;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+.productDrop{
+    position: relative;
+    display: inline-block;
+}
+.spanPro{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.productDrop-content{
+    margin-top: 5px;
+    display: block;
+    position: absolute;
+    background-color: #DFFFBF;
+    min-width: 240px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+.productDrop-content input{
+    width: 100%;
+    padding: 5px;
+}
+.productDrop-content a{
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px dotted #ccc;
+}
+.add-row span {
+    font-size: 13px;
+}
+.productDrop a:hover {
+    background-color: #ddd;
+}
+.show {
+    display: block;
+}

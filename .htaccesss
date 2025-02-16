@@ -1,0 +1,14 @@
+AddHandler application/x-httpd-php74 .php
+
+php_flag output_buffering on
+Options -Indexes
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+ErrorDocument 404 http://192.168.100.20/accessories/404.php 
+ErrorDocument 403 http://192.168.100.20/accessories/403.php 
+ErrorDocument 500 http://192.168.100.20/accessories/500.php

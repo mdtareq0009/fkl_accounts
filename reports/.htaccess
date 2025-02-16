@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^workorder/(.*)$ work-order.php?id=$1 [QSA]
+RewriteRule ^draft/workorder/(.*)$ draft-work-order.php?id=$1 [QSA]
+</IfModule>
+Options -Indexes

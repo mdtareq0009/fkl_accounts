@@ -1,0 +1,116 @@
+.pagination-page {
+	margin-left: 5px;
+	margin-top: 5px;
+	top: 16px;
+	/* margin-bottom: 10px; */
+}
+
+.pagination-page .next-pagination {
+	top: 10px;
+    height: 20px;
+	padding: 4px;
+	cursor: pointer;
+	background: #fe4c4c;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 10px;
+	position: relative;
+	border: 1px solid #585858;
+}
+.pagination-page .next-pagination button {
+	top: -2px;
+    position: relative;
+}
+.pagination-page .prev-pagination button {
+	top: -2px;
+    position: relative;
+}
+
+.pagination-page .prev-pagination {
+	margin-right: 5px;
+	top: 10px;
+    height: 20px;
+    padding: 4px;
+    cursor: pointer;
+    background: #fe4c4c;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 10px;
+    position: relative;
+	border: 1px solid #585858;
+}
+
+.select-groups {
+	width: 800px;
+	display: flex;
+}
+.print-btn{
+	top: 10px;
+	position: relative;
+}
+
+.select-groups .search-filter {
+	height: 22px;
+	font-size: 12px;
+	border-radius: 3px;
+	width: 150px;
+	border: 1px solid #B7B7B7;
+	background-color: #F5F5F7;
+	margin-right: 10px;
+}
+
+
+.pagination-number{
+	background: #6f1270;
+    top: 2px;
+    left: -2px;
+    /* right: 2px; */
+    position: relative;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 0px;
+    /* line-height: 2; */
+    margin: 5px;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    /* display: block; */
+}
+
+.select-groups select {
+	height: 22px;
+	font-size: 12px;
+	border-radius: 3px;
+	width: 100px;
+	border: 1px solid #B7B7B7;
+	background-color: #F5F5F7;
+}
+.tr-color tr td{
+	color: #fff;
+	text-align: center;
+}
+.btn-master{
+	padding: 3px;
+	background: #e9e9e9;
+	margin: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.btn-master.btn-edit{
+	background: #e9e9e9;
+	color: #006d77;
+	/* height: 20px; */
+}
+.btn-master.btn-delete{
+	background: #e9e9e9;
+	color: #c71010;
+	/* height: 20px; */
+}
+.btn-master.print-btn{
+	padding: 0px 5px;
+    top: 20px;
+    font-size: 12px;
+    background: #e9e9e9;
+    color: #161111;
+    height: 20px;
+}
